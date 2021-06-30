@@ -1,0 +1,198 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background: orange;
+        color: white;
+        padding-top: 32px;
+        min-height: 70px;
+        border-bottom: tomato 5px solid;
+    }
+    
+    header a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    
+    header li {
+        display: inline;
+        padding: 0px 23px 0px 23px;
+        float: left;
+    }
+    
+    header #brand {
+        float: left;
+    }
+    
+    header #brand h1 {
+        margin: 0;
+    }
+    
+    header nav {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    header .highlight,
+    header .current a {
+        color: red;
+        font-weight: bold;
+    }
+    
+    header a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        color: springgreen;
+    }
+    /*header is complted*/
+    
+    #front1 {
+        min-height: 400px;
+        background: url('../images/front.jpg') no-repeat 0;
+        text-align: center;
+        color: white;
+    }
+    
+    #front1 h1 {
+        margin-top: 130px;
+        font-size: 47px;
+        margin-bottom: 15px;
+    }
+    
+    #front1 p {
+        padding: 17px;
+        font-size: 20px;
+    }
+    /*banner is done*/
+    
+    #newslet {
+        float: left;
+        background: grey;
+        width: 100%;
+    }
+    
+    #newslet form {
+        float: right;
+        margin-top: -55px;
+    }
+    
+    #newslet form input {
+        padding: 10px;
+        border-radius: 7px;
+        width: 250px;
+    }
+    
+    .btn1 {
+        height: 37px;
+        background: skyblue;
+        border: 0;
+        border-radius: 7px;
+    }
+    
+    .squa {
+        margin-top: 80px;
+    }
+    
+    .box {
+        float: left;
+        width: 27%;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .box img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    footer {
+        padding: 25px;
+        margin-top: 25px;
+        text-align: center;
+        color: white;
+        background: turquoise;
+    }
+    
+    .main #main-col {
+        float: left;
+        width: 60%;
+    }
+    
+    aside .dark {
+        float: right;
+        width: 30%;
+    }
+    
+    aside .dark {
+        background: grey;
+        color: white;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .serve li {
+        list-style: none;
+        padding: 20px;
+        border: grey solid 1.5px;
+        background: lightgray;
+        margin-bottom: 7px;
+    }
+    
+    .quote input,
+    .quote textarea {
+        width: 90%;
+        padding: 5px;
+    }
+    /*media queries*/
+    
+    @media(max-width: 768px) {
+        header #brand,
+        header nav,
+        header nav li,
+        #newslet h1,
+        #newslet form,
+        .squa .box,
+        #newslet h1,
+        #newslet form,
+        article#main-col,
+        aside#side {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        header {
+            padding-bottom: 20px;
+        }
+        #front1 h1 {
+            margin-top: 45px;
+        }
+        #newslet {
+            height: 70px;
+        }
+        .main .container #main-col,
+        .main .container #side .dark {
+            width: 100%;
+        }
+        .main .container #side .dark {
+            padding: 8px 0 8px 0;
+        }
+    }
