@@ -91,12 +91,16 @@
     }
     
     #newslet h1 {
-        margin-top: 0px;
+        margin-top: 10px;
+    }
+    
+    #newslet .man {
+        margin-top: 40px;
     }
     
     #newslet form {
         float: right;
-        margin-top: -20px;
+        margin-top: -50px;
     }
     
     #newslet .container form input {
